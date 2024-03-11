@@ -1,0 +1,37 @@
+.App{
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f1f1f1;
+  }
+  
+  p {
+    color: #ecf0f1;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #bdc3c7;
+  }
+  
+  a:hover {
+    color: #f1c40f;
+  }
+
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ecf0f1;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #3498db;
+  }

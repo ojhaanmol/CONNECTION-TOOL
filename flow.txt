@@ -1,0 +1,31 @@
+=======================================================================================================
+
+This is a connection tool. Use below command to test connection of your service(mysql,rabbitmq,redis).
+
+======================================================================================================
+    $node index [OPTION]
+        -s || --service [OPTION]               OPTION: rabbitmq mysql redis
+        --all                                  Test all services and gives the status
+        --help                                 Gives quick reference to all commands
+
+    $node index -s [OPTION]
+    $node index --service [OPTION]
+
+    $node index --service rabbitmq [OPTION]    By default RabbitMQ username:guest password:guest is set
+        -u || --username ...
+        --pswd || --password ... 
+        -i || --ip ...
+        -P || --port ...
+
+    $node index --service redis
+
+    $node index --service mysql [OPTION]       By default Credentials are hardcoaded in the application
+        -h || --host ...
+        -u || --user ...
+        -p || --password ...
+        -d || --database ...
+
+    $node index --all
+        
+    $node index --help
+======================================================================================================
